@@ -1,0 +1,444 @@
+*
+@font-face {
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;;
+    src: url(https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Source+Sans+Pro&display=swap);
+}
+. globale {
+background-color: rgb(255, 255, 255);
+border:7px rgb(104, 248, 212) solid;
+box-shadow: 2px 2px 2px;
+border-radius:15px;
+width:95vw;
+margin-left:2vw;
+min-width:440px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+/* premiere partie*/
+
+.Informations_personelles{
+    border: 5px black solid;
+    background-color: bisque;
+    border-radius:15px;
+    width:75vw;  
+    margin-left: 9vw; 
+    min-height:max-content;
+    max-height:max-content;
+    margin-top:10px;
+    display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  align-items:center;
+ }
+ /* gauche*/
+.nomphoto{
+width:35vw;
+height:max-content;
+Min-width:350px;
+flex:left;
+display:flex; 
+justify-content:space-around;
+align-content: middle;
+align-items: center;
+text-align: center;
+flex-wrap: wrap;
+ }
+
+.nomprenom{
+    width:20vw;
+    height:max-content;
+    flex:left;
+   color:rgb(177,139,83);
+    text-align: center;
+    margin-left:15px;
+}
+.photo{
+    width:250px;
+ height:300px;
+flex: right;
+margin-right: 10px;
+Margin-top:15px;
+margin-bottom:15px;
+}
+#photo{
+    width: 250PX;
+    height: 300px;
+    border-radius: 80px;
+    border: 1px solid rgb(177, 139, 83);
+    box-shadow: 2px 2px;
+    }
+    /* droite*/
+    .infos{
+width:35vw;
+height:max-content;
+max-height:max-content;
+min-width:300px;
+flex:right;
+margin-left:5vw;
+justify-content: center;
+align-content: middle;
+align-items: center;
+text-align: center;
+}
+.infotexte{
+    width: 35vw;
+    height: 40px;
+    text-align: center;
+    min-height: max-content;
+
+}
+.renseignements{
+    width: 30vw;
+    min-width: 150px;
+    height: 300px;
+    display:flex;
+}
+.gauche1{
+   width:5vw;
+    min-width: 60px;
+    height:300px;
+    margin-left: 15px;
+    flex:left;
+    justify-content:space-around;
+    align-content: space-between;
+ align-items: center;
+ text-align: center; 
+}
+.droite1{
+    height:300px;
+    width: 25vw;
+    Margin-left: 5vw;
+    flex:right;
+    justify-content:space-around;
+    align-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+.droite1 h4 {
+    text-align: center;
+    margin-top:18px;
+    width: 150px;
+    height: 55px;
+    color: black;
+    }
+.Section3 {
+    border: 5px black solid;
+    background-color: bisque;
+    border-radius:15px;
+    width:75vw;  
+    margin-left: 9vw; 
+    min-height:max-content;
+    max-height:max-content;
+    margin-top:5px;
+  justify-content:space-around;
+  align-items:center;
+}
+.texte{
+    width: 75vw;
+    text-align: center;
+    text-justify: center;
+}
+.cotes{
+    width: 75vw;
+    display: flex;
+}
+.Sectiongauche{
+    width:20vw;
+    flex:left;
+}
+.Sectiongauche p {
+    text-align: center;
+    text-size-adjust:1.5em;
+    margin-left: 1vw;
+}
+.Sectiondroite{
+width: 50vw;
+flex: right;
+text-align: left;
+text-justify: distribute;
+}
+
+.Section4{
+    border: 5px black solid;
+    background-color: bisque;
+    border-radius:15px;
+    width:75vw;  
+    margin-left: 9vw; 
+    height:max-content;
+    margin-top:5px;
+   
+}
+.Sectiondroite2{
+    width:75vw;
+    flex: center;
+    text-align:center;
+}
+
+.Sectiondroite2 p{
+    text-align: center;
+    text-size-adjust:1.5em;
+    justify-content:center;
+    color: black;
+}
+.level{
+    width:25vw;
+    height:7px;
+    border: 2px black solid;
+    background-color:white;
+border-radius:3px;
+margin-left:25vw;
+margin-bottom: 15px;
+shadow: 1px;
+}
+.french{
+background-color:rgb(97, 238, 97);
+    height:100%;
+    width:95%;
+   
+}
+.office{
+    background-color:rgb(97, 238, 97);
+    height:100%;
+width:80%;    
+}
+.project{
+    background-color:rgb(97, 238, 97);
+    height:100%;
+width:60%;
+}
+.BI{
+    background-color:rgb(97, 238, 97);
+    height:100%;
+width:30%;
+}
+.code{
+    background-color:rgb(97, 238, 97);
+    height:100%;
+width:45%;
+}
+.english{
+    background-color:rgb(97, 238, 97);
+    height:100%;
+width:70%;
+}
+.haussa{
+    background-color:rgb(97, 238, 97);
+    height:100%;
+width:100%;
+}
+.zarma{
+    background-color:rgb(97, 238, 97);
+    height:100%;
+width:90%;
+}
+p {
+    color:black;
+    text-decoration: none;
+    }
+ h1{
+    color:black;
+    text-decoration: none;
+    }
+     h2{
+        color:black;
+        text-decoration: none;
+     }
+ h3{
+    color:black;
+    text-decoration: none;
+ }
+     h4{
+        color:black;
+        text-decoration: none;
+     }
+    h5{
+        color:black;
+    text-decoration: none;
+    }
+    h6{
+        color:black;
+        text-decoration: none;
+}
+p:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover{
+}
+@media screen and (max-width:400px) {
+    .Informations_personelles{
+        border: 5px black solid;
+        background-color: bisque;
+        border-radius:15px;
+        width:95vw;  
+        margin-left: 9vw; 
+        min-height:max-content;
+        max-height:max-content;
+        margin-top:10px;
+        display: flex;
+      justify-content:space-around;
+      flex-wrap: wrap;
+      align-items:center;
+     }
+     /* gauche*/
+    .nomphoto{
+    width:45vw;
+    height:max-content;
+    Min-width:350px;
+    flex:left;
+    display:flex; 
+    justify-content:space-around;
+    align-content: middle;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+     }
+    
+    .nomprenom{
+        width:30vw;
+        height:max-content;
+        flex:left;
+       color:rgb(177,139,83);
+        text-align: center;
+        margin-left:15px;
+    }
+    .photo{
+        width:190px;
+     height:220px;
+    flex: right;
+    margin-right: 10px;
+    Margin-top:15px;
+    margin-bottom:15px;
+    }
+    #photo{
+        width: 180PX;
+        height: 220px;
+        border-radius: 80px;
+        border: 1px solid rgb(177, 139, 83);
+        box-shadow: 2px 2px;
+        }
+        /* droite*/
+        .infos{
+    width:45vw;
+    height:max-content;
+    max-height:max-content;
+    min-width:300px;
+    flex:right;
+    margin-left:5vw;
+    justify-content: center;
+    align-content: middle;
+    align-items: center;
+    text-align: center;
+    }
+    .infotexte{
+        width: 45vw;
+        height: 40px;
+        text-align: center;
+        min-height: max-content;
+    
+    }
+    .renseignements{
+        width: 40vw;
+        min-width: 150px;
+        height: 300px;
+        display:flex;
+    }
+    .gauche1{
+       width:5vw;
+        min-width: 60px;
+        height:300px;
+        margin-left: 15px;
+        flex:left;
+        justify-content:space-around;
+        align-content: space-between;
+     align-items: center;
+     text-align: center; 
+    }
+    .droite1{
+        height:300px;
+        width: 30vw;
+        Margin-left: 5vw;
+        flex:right;
+        justify-content:space-around;
+        align-content: space-between;
+        align-items: center;
+        text-align: center;
+    
+    }
+    .droite1 h4 {
+        text-align: center;
+        margin-top:18px;
+        width: 150px;
+        height: 55px;
+        color: black;
+        }
+    .Section3 {
+        border: 5px black solid;
+        background-color: bisque;
+        border-radius:15px;
+        width:95vw;  
+        margin-left: 9vw; 
+        min-height:max-content;
+        max-height:max-content;
+        margin-top:5px;
+      justify-content:space-around;
+      align-items:center;
+    }
+    .texte{
+        width: 95vw;
+        text-align: center;
+        text-justify: center;
+    }
+    .cotes{
+        width: 95vw;
+        display: flex;
+    }
+    .Sectiongauche{
+        width:30vw;
+        flex:left;
+    }
+    .Sectiongauche p {
+        text-align: center;
+        text-size-adjust:1.5em;
+        margin-left: 1vw;
+    }
+    .Sectiondroite{
+    width: 60vw;
+    flex: right;
+    text-align: left;
+    text-justify: distribute;
+    }
+    
+    .Section4{
+        border: 5px black solid;
+        background-color: bisque;
+        border-radius:15px;
+        width:95vw;  
+        margin-left: 9vw; 
+        height:max-content;
+        margin-top:5px;
+       
+    }
+    .Sectiondroite2{
+        width:95vw;
+        flex: center;
+        text-align:center;
+    }
+    
+    .Sectiondroite2 p{
+        text-align: center;
+        text-size-adjust:1.5em;
+        justify-content:center;
+        color: black;
+    }
+    .level{
+        width:25vw;
+        height:7px;
+        border: 2px black solid;
+        background-color:white;
+    border-radius:3px;
+    margin-left:35vw;
+    margin-bottom: 15px;
+    shadow: 1px;
+   
+}
